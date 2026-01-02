@@ -31,12 +31,12 @@ export default function Navbar() {
             : "bg-transparent"
         )}
       >
-        <nav className="max-w-6xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
+        <nav className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
+          <div className="flex items-center justify-between gap-2">
             {/* Logo */}
             <a
               href="#"
-              className="text-[var(--text-primary)] font-bold text-xl hover:text-[var(--accent-primary)] transition-colors"
+              className="text-[var(--text-primary)] font-bold text-lg sm:text-xl hover:text-[var(--accent-primary)] transition-colors flex-shrink-0"
             >
               {"<IC />"}
             </a>

@@ -93,7 +93,7 @@ function TerminalAnimation() {
         </div>
 
       {/* Terminal Content */}
-      <div className="font-mono text-sm space-y-1 min-h-[120px]">
+      <div className="font-mono text-sm space-y-1 min-h-[120px] max-h-[120px] overflow-y-auto">
         {terminalLines.slice(0, currentLine).map((line, index) => (
           <div key={index} className={getLineColor(index)}>
             {line.command && (
