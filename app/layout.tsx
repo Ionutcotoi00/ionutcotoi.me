@@ -3,6 +3,7 @@ import "./globals.css";
 import CursorTrail from "@/components/ui/CursorTrail";
 import FloatingParticles from "@/components/ui/FloatingParticles";
 import ConsoleEasterEgg from "@/components/ui/ConsoleEasterEgg";
+import ViewportFix from "@/components/ui/ViewportFix";
 
 export const metadata: Metadata = {
   title: "Ionuț-Iacob Cotoi | Senior .NET Full-Stack Developer",
@@ -51,6 +52,7 @@ export default function RootLayout({
         <FloatingParticles />
         <CursorTrail />
         <ConsoleEasterEgg />
+        <ViewportFix />
         {children}
       </body>
     </html>

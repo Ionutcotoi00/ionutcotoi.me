@@ -27,12 +27,23 @@
 
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
+  /* Previne scroll jump pe mobile */
+  overflow-x: hidden;
 }
 
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   min-height: 100vh;
+  min-height: -webkit-fill-available;
+  min-height: 100dvh;
+  /* Previne scroll jump */
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* Stabilizează viewport */
+  position: relative;
+  width: 100%;
 }
 
 /* Grain overlay effect */
@@ -228,4 +239,11 @@ section {
 
 .text-reveal {
   animation: text-reveal 1s ease-out forwards;
+}
+
+/* Mobile viewport fix - previne scroll jump când bara de adresă apare/dispare */
+.min-h-screen {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  min-height: 100dvh;
 }
