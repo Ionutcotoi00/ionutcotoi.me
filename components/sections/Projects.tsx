@@ -71,7 +71,7 @@ export default function Projects() {
             Featured Projects
           </h2>
           <p className="text-[var(--text-secondary)] text-lg">
-            From startups to enterprise — systems built to scale
+            From startups to enterprise - systems built to scale
           </p>
         </motion.div>
 

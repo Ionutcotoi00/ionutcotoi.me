@@ -63,13 +63,13 @@ export const experience = [
     company: "DiverseWork Hub S.R.L",
     companyLogo: "/logos/diversework.svg",
     companyUrl: "https://www.diversework.org",
-    badge: "Microsoft for Startups Partner",
+    badge: "Backed byMicrosoft for Startups",
     period: "June 2025 – Present",
     location: "Remote",
     achievements: [
       "Architected cloud-native inclusive recruitment platform with .NET 8, React 18, and Azure services",
       "Integrated Azure OpenAI (GPT-4) with RAG pattern for anonymous candidate-job matching, eliminating unconscious bias",
-      "Secured €40,000 EU funding (GAL) and 4 pilot companies confirmed for January 2026 launch",
+      "Secured €40,000 EU funding (LEADER) and 4 pilot companies confirmed for January 2026 launch",
       "Built WCAG 2.2 AA compliant accessibility validation engine for government and enterprise contracts",
     ],
     tech: [
