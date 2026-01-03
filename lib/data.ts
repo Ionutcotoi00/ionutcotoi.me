@@ -63,7 +63,7 @@ export const experience = [
     company: "DiverseWork Hub S.R.L",
     companyLogo: "/logos/diversework.svg",
     companyUrl: "https://www.diversework.org",
-    badge: "Backed byMicrosoft for Startups",
+    badge: "Backed by Microsoft for Startups",
     period: "June 2025 – Present",
     location: "Remote",
     achievements: [
